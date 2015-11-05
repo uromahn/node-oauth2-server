@@ -1,5 +1,10 @@
 ## Changelog
 
+### 2.4.2
+- Added to extract client credentials also from header using X-Client-Id and X-Client-Secret
+- Changed authorise.js to also require client-id and client-sercret as credentials in the hearder, body, or query
+- Made some more minor fixes and changes
+
 ### 2.4.1
 
 - Fix header setting syntax
