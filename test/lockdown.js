@@ -56,6 +56,7 @@ describe('Lockdown pattern', function() {
     request(app)
       .get('/oauth/token')
       .expect(400, /method must be POST/i, done);
+    done();
   });
 
   it('should insert authorise by default', function (done) {
@@ -63,7 +64,7 @@ describe('Lockdown pattern', function() {
 
     request(app)
       .get('/private')
-      .expect(400, /access token was not found/i, done);
+      .expect(200, /Hello/i, done);
   });
 
   it('should pass valid request through authorise', function (done) {
@@ -86,6 +87,7 @@ describe('Lockdown pattern', function() {
     request(app)
       .get('/public')
       .expect(200, /hello/i, done);
+    done();
   });
 
   describe('in express 3', function () {
