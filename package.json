@@ -18,7 +18,8 @@
   ],
   "main": "lib/oauth2server.js",
   "dependencies": {
-    "basic-auth": "~1.0.3"
+    "basic-auth": "^1.0.3",
+    "type-is": "^1.6.9"
   },
   "devDependencies": {
     "body-parser": "~1.14.1",
