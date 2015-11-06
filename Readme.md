@@ -2,7 +2,7 @@
 
 Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with [express](http://expressjs.com/) in [node.js](http://nodejs.org/)
 
-**IMPORTANT: _This is a for from the original node-oauth2-server and not intended to be used by the public! While I have added some useful features (in my opinion), it also has some specific customizations that won't work for you._**
+**IMPORTANT: _This is a fork from the original node-oauth2-server and not intended to be used by the public! While I have added some useful features (in my opinion), it also has some specific customizations that won't work for you._**
 
 **_PLEASE DO NOT CLONE THIS! USE the ORIGINAL ONE AT https://github.com/thomseddon/node-oauth2-server_**
 
